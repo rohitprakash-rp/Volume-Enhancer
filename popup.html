@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="popup.css">
+    </head>
+
+    <body>
+        <output> Volume Enhancer </output>
+        
+        <div class="slider button">
+            <input type="range" min="0" max="500"  class="slider"  id="volumeSlider">
+            <output id="result"> 100% </output>
+        </div>
+
+        <button id="confirmButton"> Confirm </button>
+
+        <div class="space"></div>
+
+        <button id="resetButton"> Restore Default </button>
+        <div class="space"></div>
+        
+        <br>
+        <output id="confirm msg"></output>
+        <script src="popup.js"></script>
+        
+    </body>
+</html>

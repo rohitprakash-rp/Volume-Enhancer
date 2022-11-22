@@ -1,0 +1,44 @@
+body 
+{
+    padding: 13px;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 8px;
+    background-color:white;
+}
+
+
+button
+{
+    padding: 15px,15px;
+    font-family: 'Cambria', 'Cambria';
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    
+
+    color: rgb(255, 255, 255);
+    background:#5adbb5;
+    background-origin: border-box;
+}
+
+
+#volumeSlider 
+{
+        width: 150px;
+        font-weight: normal;
+        
+}
+
+output
+{
+    font-family: 'Cambria', sans-serif;
+    font-size: larger;
+    color: rgb(15, 230, 165);
+    
+}
